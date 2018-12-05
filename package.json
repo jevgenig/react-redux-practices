@@ -1,0 +1,34 @@
+{
+  "name:": "react-redux-practices",
+  "version": "0.0.1",
+  "description": "Personal practices for using React & Redux with Typescript",
+  "license": "MIT",
+  "scripts": {
+    "start-webpack": "./node_modules/.bin/webpack --watch",
+    "start-web": "./node_modules/.bin/webpack-dev-server --open",
+    "start": "yarn start-web | yarn start-webpack",
+    "tslint": "./node_modules/.bin/tslint 'src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-redux": "^6.0.10",
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-redux": "^5.1.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "ts-loader": "^5.3.1",
+    "ts-node": "^7.0.1",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "tslint": "^5.11.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^3.2.1",
+    "webpack": "^4.27.0",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}

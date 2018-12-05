@@ -1,0 +1,31 @@
+
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "lib": [
+        "dom",
+        "es6",
+        "es2015.promise"
+      ],
+      "outDir": "./dist/",
+      "module": "commonjs",
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "noUnusedLocals": true,
+      "target": "es5",
+      "baseUrl": "./",
+      "paths": {
+        "*": [
+          "src/*"
+        ]
+      }
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.d.ts",
+      "src/**/*.tsx"
+    ],
+    "exclude": [
+      "../node_modules"
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "ordered-imports": false,
+        "interface-name": false,
+        "no-empty-interface": false,
+        "arrow-parens": false,
+        "callable-types": false
+    }
+}
